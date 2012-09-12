@@ -18,6 +18,7 @@ Calling Method
 ======================
 
 $this->load->library('amazon_api'); //load the library amazon_api
+
 $this->amazon_api->searchProducts($search_keyword, $category, $searchType);
 
 eg:$this->amazon_api->searchProducts('X-men','DVD','TITLE');
